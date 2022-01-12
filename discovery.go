@@ -126,7 +126,7 @@ func (d *Server) Run(in io.Reader, out io.Writer) error {
 		cmd := strings.ToUpper(split[0])
 
 		if !d.initialized && cmd != "HELLO" && cmd != "QUIT" {
-			d.hello("1 \"No Hello Provided\"")
+			d.hello("1 \"No Hello Was Provided\"")
 			//d.outputChan <- messageError("command_error", fmt.Sprintf("First command must be HELLO, but got '%s'", cmd))
 			//continue
 		}
