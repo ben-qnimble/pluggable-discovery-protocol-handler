@@ -1,4 +1,4 @@
-module github.com/arduino/pluggable-discovery-protocol-handler/v2
+module github.com/ben-qnimble/pluggable-discovery-protocol-handler/v3
 
 go 1.16
 
